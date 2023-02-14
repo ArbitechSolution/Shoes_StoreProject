@@ -164,7 +164,7 @@ const ShoeSize = () => {
       </div>
       </div>
     </section>
-    <section className='faq' id='faq'>
+    {/* <section className='faq' id='faq'>
       <div className="container">
         <div className="row pt-5 py-3">
           <div className="col text-center">
@@ -184,7 +184,7 @@ const ShoeSize = () => {
         </div>
         </div>
       </div>
-    </section>
+    </section> */}
     </>
   )
 }
