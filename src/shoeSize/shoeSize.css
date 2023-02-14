@@ -1,0 +1,63 @@
+.shoeSize .bgImage{
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.836),rgba(255, 255, 255, 0.836)), url(../assets/manshoe.jpg);
+  
+  
+  
+}
+.shoeSize .bgImage-womenshow{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.836),rgba(255, 255, 255, 0.836)), url(../assets/womenshoe.jpg);
+}
+.shoeSize p{
+  color: rgb(102, 96, 96);
+  font-weight: 500;
+  
+  
+  
+}
+.shoeSize h2{
+  font-weight: bold;
+  color: black;
+  
+}
+.shoeSize .bgImage h4{
+  font-size: 2rem;
+  font-weight: 400;
+  color: black;
+}
+
+ table  thead:hover, tbody tr:hover{
+  background-color: cornflowerblue;
+}
+
+table tbody tr td,th{
+  padding: 15px  !important;
+  
+}
+table tbody tr {
+  border-bottom: 1px solid rgba(84, 91, 94, 0.527);
+}
+
+
+/* faq */
+.faq h2{
+  color: black;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.faq p{
+  font-size: 1rem;
+  color: rgb(101, 103, 104);
+  font-weight: 500;
+}
+
+/* .faq .socialLinks-box {
+  bottom: 30px;
+  padding: 0 20px;
+} */
