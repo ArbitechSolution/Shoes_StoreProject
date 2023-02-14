@@ -1,8 +1,8 @@
 import React from 'react'
 import './shoeSize.css'
-import employerimg1 from '../assets/face-5.jpg'
-import employerimg2 from '../assets/face-5.jpg'
-import employerimg3 from '../assets/face-5.jpg'
+import employerimg1 from '../assets/face8.jpg'
+import employerimg2 from '../assets/face6.jpg'
+import employerimg3 from '../assets/face7.jpg'
 const ShoeSize = () => {
   return (
     <>
@@ -29,7 +29,7 @@ const ShoeSize = () => {
         
       </div>
       <div className="row">
-      <div className="col overflow-scroll ">
+      <div className="col overflow-auto ">
 
 
       <table class="table ">
@@ -99,7 +99,7 @@ const ShoeSize = () => {
         
       </div>
       <div className="row">
-      <div className="col overflow-scroll ">
+      <div className="col overflow-auto ">
 
 
       <table class="table ">
@@ -164,27 +164,87 @@ const ShoeSize = () => {
       </div>
       </div>
     </section>
-    {/* <section className='faq' id='faq'>
+    <section className='faq' id='faq'>
       <div className="container">
-        <div className="row pt-5 py-3">
+        <div className="row pt-5 py-3 ">
           <div className="col text-center">
             <h2>Still in doubt? Come and our team will help You</h2>
             <p>Lorem Ipsum Dolor Sit Amet</p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-3">
+        <div className="row gy-5">
+          <div className="col-lg-3 col-md-6 ">
           <div className="faq-box">
-            <figure className='position-relative'><img src={employerimg1} alt="img not found" className='img-fluid' />
+            <figure className='position-relative employeImg'><img src={employerimg1} alt="img not found" className='img-fluid' />
+            <div className="d-flex justify-content-center ">
             <div className="socialLinks-box position-absolute">
+              <a href="#"><span><i class="bi bi-facebook"></i></span></a>
               <a href="#"><span><i class="bi bi-twitter"></i></span></a>
+              <a href="#"><span><i class="bi bi-instagram"></i></span></a>
+              <a href="#"><span><i class="bi bi-youtube"></i></span></a>
+            </div>
             </div>
             </figure>
+            <p className='employeName'><strong >John Smith</strong></p>
+            <span className='employePost'>Sales Manager</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, pariatur.</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6">
+          <div className="faq-box">
+            <figure className='position-relative employeImg'><img src={employerimg2} alt="img not found" className='img-fluid' />
+            <div className="d-flex justify-content-center ">
+            <div className="socialLinks-box position-absolute">
+              <a href="#"><span><i class="bi bi-facebook"></i></span></a>
+              <a href="#"><span><i class="bi bi-twitter"></i></span></a>
+              <a href="#"><span><i class="bi bi-instagram"></i></span></a>
+              <a href="#"><span><i class="bi bi-youtube"></i></span></a>
+            </div>
+            </div>
+            </figure>
+            <p className='employeName'><strong >Amanda Adams</strong></p>
+            <span className='employePost'>Purchasing Officer</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, pariatur.</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6">
+          <div className="faq-box">
+            <figure className='position-relative employeImg'><img src={employerimg3} alt="img not found" className='img-fluid' />
+            <div className="d-flex justify-content-center ">
+            <div className="socialLinks-box position-absolute">
+            <a href="#"><span><i class="bi bi-facebook"></i></span></a>
+              <a href="#"><span><i class="bi bi-twitter"></i></span></a>
+              <a href="#"><span><i class="bi bi-instagram"></i></span></a>
+              <a href="#"><span><i class="bi bi-youtube"></i></span></a>
+            </div>
+              
+            </div>
+            </figure>
+            <p className='employeName'><strong >John Smith</strong></p>
+            <span className='employePost'>Service Advicer</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, pariatur.</p>
+          </div>
+        </div>
+        <div className="col-lg-3 col-md-6">
+          <div className="faq-box">
+            <figure className='position-relative employeImg'><img src={employerimg1} alt="img not found" className='img-fluid' />
+            <div className="d-flex justify-content-center ">
+            <div className="socialLinks-box position-absolute">
+              <a href="#"><span><i class="bi bi-facebook"></i></span></a>
+              <a href="#"><span><i class="bi bi-twitter"></i></span></a>
+              <a href="#"><span><i class="bi bi-instagram"></i></span></a>
+              <a href="#"><span><i class="bi bi-youtube"></i></span></a>
+            </div>
+            </div>
+            </figure>
+            <p className='employeName'><strong >John Smith</strong></p>
+            <span className='employePost'>Sales Manager</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, pariatur.</p>
           </div>
         </div>
         </div>
       </div>
-    </section> */}
+    </section>
     </>
   )
 }

@@ -15,13 +15,14 @@ const NewCollection = () => {
           </div>
         </div>
 
-        <div className="row pt-5">
+        <div className="row pt-5 gy-5 mb-5">
           <div className="col-lg-6 ">
           <div className="fig-container ">
           
           
             <img src={itemImg1} alt="" className='img-fluid itemImg' />
-            <div className="img-text ">
+            
+            <div className="img-text  ">
           <h3>Sport Collection</h3>
           <div className="scText">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sunt laboriosam libero rerum nobis totam deserunt enim necessitatibus aut!</p>
@@ -32,8 +33,8 @@ const NewCollection = () => {
           </div>
           
             
+          
           </div>
-            
           </div>
 
           <div className="col-lg-6">
